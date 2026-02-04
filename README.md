@@ -1,2 +1,2 @@
 # Computer-Vision
-Transformer and LLMs
+Transformer and CNN
