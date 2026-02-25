@@ -1,7 +1,9 @@
 # Computer-Vision
+
 A comparision of Transformer and CNN models over RGB satellite imagery
 This workflow is detailed study of how different architecture behave on high resolution dataset.
 
+`````````````````````````````````````````````````````````````````````````````````````
 🛰 Dataset Details
 
 Total samples: 500 image–mask pairs
@@ -15,7 +17,7 @@ Task: Pixel-wise semantic segmentation
 Data split: Train / Validation 
 
 Each mask contains integer-encoded class labels corresponding to five semantic land-cover categories.
-
+``````````````````````````````````````````````````````````````````````````````````````
 🧠 Models Compared
 1️⃣ ResNet50-based Segmentation
 
@@ -42,7 +44,7 @@ Transformer-based segmentation architecture
 Efficient attention mechanism
 
 Strong performance on dense prediction tasks 
-
+````````````````````````````````````````````````````````````````````````````````````````````
 ⚙️ Training Configuration
 🔹 Input Size
 
@@ -82,9 +84,8 @@ Batch size : 4
 
 Optimizer selection :  adam
 
-
 Best configurations were selected based on validation performance.
-
+```````````````````````````````````````````````````````````````````````````````````````````
 📊 Evaluation Metrics
 
 Models were evaluated using:
@@ -92,8 +93,6 @@ Models were evaluated using:
 Pixel Accuracy
 
 Mean Intersection over Union (mIoU)
-
-
 
 Confusion Matrix
 
